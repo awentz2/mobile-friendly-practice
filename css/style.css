@@ -1,17 +1,19 @@
 body{
-    background-color: rgb (238, 13, 112);
-padding: 0%;
-margin: 0%;     
+    background-color: bisque;
+    padding: 0%;
+    margin: 0%;     
 }
 header{
-    background-color: rosybrown;
+    background-color: none;
     width: auto;
     height: auto;
     text-align: center;
     margin-top: auto;
-    border: 5px whitesmoke;
+    border: 5px;
     padding: 20px;
     margin: 0px;
+    position: absolute;
+    margin-left: 40%;
 }
 h1.a{
     visibility: visible;
@@ -62,4 +64,9 @@ footer{
     position: relative;
     float: left;
     background-color: rosybrown;
+}
+@media only screen and (max-width: 600px) {
+header {
+   background-color: lightblue;
+}
 }
